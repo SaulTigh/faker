@@ -4,9 +4,9 @@ from ..ssn import Provider as SsnProvider
 
 
 # Note: as there no SSN in Ukraine
-# we get value added tax identification number (VATIN) here.
-# It is also called "Ідентифікаційний номер платника податків" (in ukrainian).
-# It contains only digits and length if 12.
+# we get Value Added Tax Identification Number (VATIN) here.
+# It is also called "Ідентифікаційний Номер Платника Податків" (in ukrainian).
+# It is 12 digits long.
 
 
 class Provider(SsnProvider):
